@@ -1,0 +1,6 @@
+---
+
+pip:
+    - i3ipc
+    - plumbum
+    - phonenumbers
