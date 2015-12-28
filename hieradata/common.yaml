@@ -1,6 +1,19 @@
 ---
 
-pip:
-    - i3ipc
+
+pip::common:
     - plumbum
     - phonenumbers
+pip::pip2:
+    - i3ipc
+pip::pip3: 
+    []
+
+dotfile_source: /home/ubuntu/bootstrap_puppet/dotfiles
+home_directory: /home/ubuntu
+
+link_home_dotfiles:
+    ".something": ".something"
+    ".somethingelse": ".somethingelse"
+
+

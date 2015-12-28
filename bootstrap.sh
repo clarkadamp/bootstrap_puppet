@@ -31,7 +31,7 @@ install_puppet_module_if_not_present(){
     fi
 }
 
-install_puppet_module_if_not_present "stankevich-python" "python"
+#install_puppet_module_if_not_present "stankevich-python" "python"
 
 if [ -f ${BOOTSTRAP_DIR}/${PUPPET_MANIFEST} ]; then
     sudo ${PUPPET_BIN} apply ${BOOTSTRAP_DIR}/${PUPPET_MANIFEST}
